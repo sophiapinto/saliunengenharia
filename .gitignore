@@ -1,0 +1,30 @@
+# Ignorar configurações do VS Code
+.vscode/
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Ignorar arquivos temporários e backups
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Ignorar arquivos de ambiente (caso use futuramente)
+.env
+.env.*
+
+# Ignorar arquivos de compilação SCSS → CSS (ajuste se necessário)
+*.css.map
+*.css
+
+# Ignorar pastas de build (se houver)
+build/
+dist/
+
+# Ignorar dependências (caso use gerenciadores no futuro)
+node_modules/
+bower_components/

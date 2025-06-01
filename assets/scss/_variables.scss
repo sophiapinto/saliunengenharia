@@ -1,6 +1,9 @@
-$font-main: "popins";
+$font-main: "Open Sans", sans-serif;
+$font-secondary: "Roboto", sans-serif;
+$font-size-base: 16px;
+$font-size-lg: 18px;
 
-$color-main: #F4A300;
+$color-main: hsl(40, 100%, 48%);
 $color-white: 	#FDF6E3;
 $color-gray: 	#FDF6E3;
 $bg-main: 	#1B2C4D;
@@ -79,7 +82,7 @@ $gap-9: 128px;
     height: 1px;
     bottom: -7px;
     left: 0;
-    background: linear-gradient(270deg, #986dff 0%, #17161d 100%);
+    background: linear-gradient(270deg, #F4A300 0%, #17161d 100%);
     transform-origin: bottom right;
     transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
   }
@@ -100,7 +103,7 @@ $gap-9: 128px;
   transition: 1s all ease;
 
   &:hover {
-    border: 1px solid #986dff;
+    border: 1px solid #F4A300;
   }
 
   @include responsive-desktop {
