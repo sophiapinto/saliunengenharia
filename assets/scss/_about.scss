@@ -7,6 +7,10 @@
   }
 
   .grid-layout {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-5;
+
     > div {
       background-color: $bg-secondary;
       border: 2px solid $bg-border;
@@ -15,24 +19,21 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      height: auto;
+      flex-wrap: wrap;
 
       @include responsive-desktop {
-        flex-wrap: wrap;
         gap: $gap-4;
       }
 
-      .creator-photo {
-        width: 47%;
+      /* Estilo para as imagens: foto-principal e foto-representante */
+      .foto-principal,
+      .foto-representante {
+        width: 100%;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         border-radius: 4px;
         height: 500px;
-
-        /* Testando com background-size: contain para ajustar a imagem */
-        background-size: cover; /* Ajuste para testar a exibição */
-        background-image: url("../image/obra.svg"); /* Caminho absoluto - Certifique-se que o caminho está correto */
 
         @include responsive-desktop {
           height: 400px;
@@ -43,6 +44,7 @@
         }
 
         @include responsive-mobile {
+          width: 100%;
           height: 300px;
         }
 
@@ -57,39 +59,23 @@
           font-weight: 500;
           margin: $gap-2;
         }
-/*
-        .foto-principal {
-          background-image: url("/image/obra.svg");
-        }
-
-        .foto-representante {
-          background-image: url("/image/perfil-alison.jpg");
-        }
       }
-*/
+
+      /* Backgrounds específicos para cada foto */
+      .foto-principal {
+        background-image: url("../image/IMG_3248.JPG");
+      }
+
+      .foto-representante {
+        background-image: url("../image/perfil-alison.jpg");
+      }
+
+      /* Estilo para o conteúdo textual ao lado das imagens */
       div:nth-child(2) {
         width: 49%;
 
         @include responsive-desktop {
           width: 100%;
-        }
-
-        h2 {
-          font-size: 4rem;
-          font-weight: 500;
-          margin: $gap-2 $gap-0;
-          color: $color-white;
-
-          @include responsive-tablet {
-            font-size: 3.2rem;
-          }
-        }
-
-        h3 {
-          font-size: 1.8rem;
-          font-weight: 300;
-          margin-bottom: $gap-2;
-          color: $color-white;
         }
 
         h4 {
@@ -102,39 +88,9 @@
           font-size: 1.8rem;
           color: $color-gray;
           line-height: 160%;
-          margin: $gap-4 0px $gap-5 0px;
-        }
-
-        nav {
-          ul {
-            display: flex;
-            align-items: center;
-            gap: $gap-2;
-
-            @include responsive-desktop {
-              flex-wrap: wrap;
-            }
-
-            a {
-              background-color: $bg-main;
-              border: 2px solid $bg-border;
-              border-radius: 6px;
-              padding: $gap-2;
-
-              @include responsive-desktop {
-                img {
-                  width: 40px;
-                }
-              }
-
-              &:hover {
-                border-color: $color-main;
-              }
-            }
-          }
+          margin: $gap-4 0 $gap-5 0;
         }
       }
     }
   }
-}
 }
