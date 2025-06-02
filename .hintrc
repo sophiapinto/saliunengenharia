@@ -9,6 +9,14 @@
     "not safari <= 17.5"
   ],
   "hints": {
-    "css-prefix-order": "off"
+    "css-prefix-order": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "min-height: auto"
+        ]
+      }
+    ]
   }
 }

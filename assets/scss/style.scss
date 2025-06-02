@@ -21,3 +21,7 @@
 .grid-layout {
   @include grid-layout();
 }
+
+.grid-layoutres {
+  @include grid-layoutres();
+}
