@@ -567,8 +567,14 @@ textarea{
 }
 
 .thankyou_message {
-    display: none;
+   display: none;
+   font: 14px 'opensans-semibold', sans-serif;
+   letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 48px;
+   color: #17161d;
 }
+
 
 .btn-whatsapp {
     position: fixed;
