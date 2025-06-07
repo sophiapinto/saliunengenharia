@@ -68,10 +68,10 @@ hoverChangeExperience(
 
 hoverChangeExperience(
   ".elaboracao",
-  `Conformidade legal com os principais programas de saúde, segurança e meio ambiente:\n
-	•	PCMAT (Programa de Condições e Meio Ambiente de Trabalho na Indústria da Construção);\n
-	•	PPRA / PGR / PGRCC;\n
-	•	PCMSO / LTCAT / PAE / PPR;\n
+  `Conformidade legal com os principais programas de saúde, segurança e meio ambiente:<br>
+	•	PCMAT (Programa de Condições e Meio Ambiente de Trabalho na Indústria da Construção);<br>
+	•	PPRA / PGR / PGRCC;<br>
+	•	PCMSO / LTCAT / PAE / PPR;<br>
 	•	E outros programas técnicos obrigatórios.`,
   " ",
   "Elaboração e Revisão de Programas Técnicos",
