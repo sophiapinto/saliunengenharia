@@ -31,9 +31,9 @@ hoverChangeExperience(
 hoverChangeExperience(
   ".projetos",
   `Desenvolvimento de projetos personalizados, alinhados às normas técnicas e às necessidades do cliente:<br>
-	•	Projeto arquitetônico completo<br>
-	•	Projeto estrutural<br>
-	•	Projetos elétrico, hidrossanitário, SPDA e combate a incêndio`,
+	•	Projeto arquitetônico completo;<br>
+	•	Projeto estrutural; e, <br>
+	•	Projetos elétrico, hidrossanitário, SPDA e combate a incêndio.`,
   " ",
   "Projetos Arquitetônicos e Complementares",
   " "
@@ -72,7 +72,7 @@ hoverChangeExperience(
   ".laudo",
   `Emissão de documentos técnicos com base em análise criteriosa:<br>
 	•	Laudos de patologias construtivas;<br>
-	•	Vistorias técnicas para compra, venda ou aluguel de imóveis;<br>
+	•	Vistorias técnicas para compra, venda ou aluguel de imóveis; e,<br>
 	•	Atestados e pareceres de engenharia.`,
   " ",
   "Laudos e Perícias Técnicas",
@@ -84,7 +84,7 @@ hoverChangeExperience(
   `Conformidade legal com os principais programas de saúde, segurança e meio ambiente:<br>
 	•	PCMAT (Programa de Condições e Meio Ambiente de Trabalho na Indústria da Construção);<br>
 	•	PPRA / PGR / PGRCC;<br>
-	•	PCMSO / LTCAT / PAE / PPR;<br>
+	•	PCMSO / LTCAT / PAE / PPR; e,<br>
 	•	E outros programas técnicos obrigatórios.`,
   " ",
   "Elaboração e Revisão de Programas Técnicos",
@@ -95,7 +95,7 @@ hoverChangeExperience(
   ".capacitacao",
   `Capacitação de equipes para atendimento às Normas Regulamentadoras (NRs) e demais exigências técnicas e legais:<br>
 	•	NRs (NR-10, NR-18, NR-35 etc.);<br>
-	•	RACs (Regras de Ouro);<br>
+	•	RACs (Regras de Ouro); e,<br>
 	•	Cursos e reciclagens específicas sob demanda.`,
   " ",
   "Treinamentos Profissionais e Capacitação",
