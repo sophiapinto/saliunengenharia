@@ -17,7 +17,12 @@ hoverChangeExperience(
 
 hoverChangeExperience(
   ".infraestrutura",
-  `Soluções técnicas e operacionais para obras de infraestrutura urbana e rural: Pavimentação, terraplanagem, drenagem pluvial, sinalização viária e uutros serviços correlatos.`,
+  `Soluções técnicas e operacionais para obras de infraestrutura urbana e rural:\n
+  • Pavimentação;\n
+  • Terraplanagem;\n
+  • Drenagem pluvial;\n
+  • Sinalização viária; e,\n
+  • Outros serviços correlatos.`,
   " ",
   "Infraestrutura",
   " "
@@ -25,9 +30,9 @@ hoverChangeExperience(
 
 hoverChangeExperience(
   ".projetos",
-  `Desenvolvimento de projetos personalizados, alinhados às normas técnicas e às necessidades do cliente:
-	•	Projeto arquitetônico completo
-	•	Projeto estrutural
+  `Desenvolvimento de projetos personalizados, alinhados às normas técnicas e às necessidades do cliente:\n
+	•	Projeto arquitetônico completo\n
+	•	Projeto estrutural\n
 	•	Projetos elétrico, hidrossanitário, SPDA e combate a incêndio`,
   " ",
   "Projetos Arquitetônicos e Complementares",
@@ -44,9 +49,9 @@ hoverChangeExperience(
 
 hoverChangeExperience(
   ".consultoria",
-  `Emissão de documentos técnicos com base em análise criteriosa:
-	•	Laudos de patologias construtivas;
-	•	Vistorias técnicas para compra, venda ou aluguel de imóveis;
+  `Emissão de documentos técnicos com base em análise criteriosa:\n
+	•	Laudos de patologias construtivas;\n
+	•	Vistorias técnicas para compra, venda ou aluguel de imóveis;\n
 	•	Atestados e pareceres de engenharia.`,
   " ",
   "Laudos Técnicos e Vistorias",
@@ -63,10 +68,10 @@ hoverChangeExperience(
 
 hoverChangeExperience(
   ".elaboracao",
-  `Conformidade legal com os principais programas de saúde, segurança e meio ambiente:
-	•	PCMAT (Programa de Condições e Meio Ambiente de Trabalho na Indústria da Construção);
-	•	PPRA / PGR / PGRCC;
-	•	PCMSO / LTCAT / PAE / PPR;
+  `Conformidade legal com os principais programas de saúde, segurança e meio ambiente:\n
+	•	PCMAT (Programa de Condições e Meio Ambiente de Trabalho na Indústria da Construção);\n
+	•	PPRA / PGR / PGRCC;\n
+	•	PCMSO / LTCAT / PAE / PPR;\n
 	•	E outros programas técnicos obrigatórios.`,
   " ",
   "Elaboração e Revisão de Programas Técnicos",
@@ -75,9 +80,9 @@ hoverChangeExperience(
 
 hoverChangeExperience(
   ".capacitacao",
-  `Capacitação de equipes para atendimento às Normas Regulamentadoras (NRs) e demais exigências técnicas e legais:
-	•	NRs (NR-10, NR-18, NR-35 etc.);
-	•	RACs (Regras de Ouro);
+  `Capacitação de equipes para atendimento às Normas Regulamentadoras (NRs) e demais exigências técnicas e legais:\n
+	•	NRs (NR-10, NR-18, NR-35 etc.);\n
+	•	RACs (Regras de Ouro);\n
 	•	Cursos e reciclagens específicas sob demanda.`,
   " ",
   "Treinamentos Profissionais e Capacitação",
