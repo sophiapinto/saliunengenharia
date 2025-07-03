@@ -2,9 +2,8 @@
   💻<br> Salin Engenharia
 </h1>
 
-![Resultado final do projeto](assets/image/previea.png)
+![Resultado final do projeto](assets/image/previa.png)
 
-<h4 align="center"><a href="https://www.iuricode.com/">Clique para visitar o projeto</a></h4>
 
 ## 📚 Seções
 
